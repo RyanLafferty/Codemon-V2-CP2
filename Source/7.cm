@@ -1,0 +1,16 @@
+begin@3;
+DAT #1, #1;
+DAT #3, #4;
+DAT #5, #6;
+SEQ ]-3,[-3;
+DAT #0, #0;
+SNE #0, *-2;
+DAT #0, #0;
+SLT #0, *-7;
+DAT #0, #0;
+!
+DAT #-1, #-1;
+
+! holy extra lines batman
+
+

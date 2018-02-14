@@ -1,0 +1,14 @@
+begin@0;    ! instruction at which to start execution
+     MOV!test
+     0,!test
+     0;    ! turning the tables on Imps
+     JMP ! Testing123
+      -1;
+     FRK -2;     ! start Imp defence thread
+     SUB $ 1,     ! strange way to write this counter, but legal
+         # -9012  ;
+     JMZ 4, -1;  ! ...repeating something until it's 0
+     JMP -2; ! this file will not run, there might be errors
+     SET 1;
+     CLR 1;
+     NOP 1;

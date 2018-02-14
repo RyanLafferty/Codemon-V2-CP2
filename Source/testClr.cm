@@ -1,0 +1,14 @@
+begin@0;
+CLR ;
+CLR 0;
+CLR 0,0;
+CLR $0,$0;
+CLR #0,#0;
+CLR [0,[0;
+CLR ]0,]0;
+CLR *0,*0;
+CLR @0,@0;
+CLR {0,{0;
+CLR }0,}0;
+CLR <0,<0;
+CLR >0,>0;

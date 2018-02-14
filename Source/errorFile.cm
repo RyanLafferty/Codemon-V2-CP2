@@ -1,0 +1,7 @@
+begin@0;
+MOV A,B;
+MOV #a,#b;
+MOV #1a,#1b;
+MOV @#$,@$#$;
+m0v 1,0;
+dsadas 1, 0;

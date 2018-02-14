@@ -1,0 +1,6 @@
+begin@0;
+L0:
+MOV 0,L3;
+L1: MOV 0,0;
+L2:     MOV 0,0; MOV L1,0;
+L3: MOV 0,0;

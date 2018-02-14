@@ -1,0 +1,12 @@
+begin@0;    ! instruction at which to start execution
+     MOV!test
+     0,!test
+     0;    ! turning the tables on Imps
+    MOV !test
+    0, !test
+    0;! turning the tables on Imps
+         MOV!test
+         0!Test
+         ,
+         0 !Test
+         ;    ! turning the tables on Imps

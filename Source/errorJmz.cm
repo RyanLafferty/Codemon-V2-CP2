@@ -1,0 +1,4 @@
+begin@0;
+JMZ ;
+JMZ 0;
+JMZ #0,0;

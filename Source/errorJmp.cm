@@ -1,0 +1,4 @@
+begin@0;
+JMP ;
+JMP #0;
+JMP #0,0;

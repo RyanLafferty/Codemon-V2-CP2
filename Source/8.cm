@@ -1,0 +1,5 @@
+begin@0;
+begin:  ADD #4, data;
+        MOV  data, @data;
+        JMP begin; ! -2;
+data:   DAT #0, #0;

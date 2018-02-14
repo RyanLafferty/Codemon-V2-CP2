@@ -1,0 +1,3 @@
+begin@0;
+dat #a,#b;mov a,b;
+sub a,b;

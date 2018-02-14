@@ -1,0 +1,14 @@
+begin@0;
+SET ;
+SET 0;
+SET 0,0;
+SET $0,$0;
+SET #0,#0;
+SET [0,[0;
+SET ]0,]0;
+SET *0,*0;
+SET @0,@0;
+SET {0,{0;
+SET }0,}0;
+SET <0,<0;
+SET >0,>0;

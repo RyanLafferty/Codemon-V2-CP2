@@ -1,0 +1,21 @@
+begin@0;
+    FRK k2;         ! release the kraken!
+    FRK k3;         ! by which we mean a 4-thread dwarf
+    FRK k4;
+    NOP ;           ! align to multiple of 4
+k1: ADD #16, 3;
+    MOV 2,@2;
+    JMP -2;
+    DAT #0, #0;
+k2: ADD #16, 3;
+    MOV 2,@2;
+    JMP -2;
+    DAT #0, #0;
+k3: ADD #16, 3;
+    MOV 2,@2;
+    JMP -2;
+    DAT #0, #0;
+k4: ADD #16, 3;
+    MOV 2,@2;
+    JMP -2;
+    DAT #0, #0;

@@ -1,0 +1,9 @@
+begin@0;    ! instruction at which to start execution
+     MOV 0,0;    ! turning the tables on Imps
+     JMP -1;
+     FRK -2;     ! start Imp defence thread
+     SUB $1,     ! strange way to write this counter, but legal
+         # 5  ;
+     JMZ 4, -1;  ! ...repeating something until it's 0
+     JMP -2;
+test:NOP; ! ...repeating something until it's 0

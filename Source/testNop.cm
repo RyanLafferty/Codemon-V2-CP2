@@ -1,0 +1,14 @@
+begin@0;
+NOP ;
+NOP 0;
+NOP 0,0;
+NOP $0,$0;
+NOP #0,#0;
+NOP [0,[0;
+NOP ]0,]0;
+NOP *0,*0;
+NOP @0,@0;
+NOP {0,{0;
+NOP }0,}0;
+NOP <0,<0;
+NOP >0,>0;
